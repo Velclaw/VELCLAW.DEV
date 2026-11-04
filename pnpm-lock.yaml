@@ -25,10 +25,10 @@ importers:
         version: 22.0.1
       '@openai/agents':
         specifier: 0.18.0
-        version: 0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6)
+        version: 0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6)
       '@openai/agents-openai':
         specifier: 0.18.0
-        version: 0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6)
+        version: 0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6)
       '@radix-ui/react-accordion':
         specifier: ^1.2.12
         version: 1.2.12(@types/react-dom@19.2.3(@types/react@19.2.9))(@types/react@19.2.9)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
@@ -88,7 +88,7 @@ importers:
         version: 8.18.1
       '@vercel/analytics':
         specifier: ^2.0.1
-        version: 2.0.1(next@16.4.1(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react@19.2.1)
+        version: 2.0.1(next@16.4.3(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react@19.2.1)
       '@vercel/sandbox':
         specifier: ^0.0.21
         version: 0.0.21
@@ -97,7 +97,7 @@ importers:
         version: 1.18.7(hono@4.11.5)
       '@vercel/speed-insights':
         specifier: ^2.0.0
-        version: 2.0.0(next@16.4.1(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react@19.2.1)
+        version: 2.0.0(next@16.4.3(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react@19.2.1)
       '@webcontainer/api':
         specifier: 1.6.4
         version: 1.6.4
@@ -106,7 +106,7 @@ importers:
         version: 1.15.0
       ai:
         specifier: 7.0.85
-        version: 7.0.85(zod@4.3.6)
+        version: 7.0.85(zod@4.6.6)
       arctic:
         specifier: 3.7.0
         version: 3.7.0
@@ -141,8 +141,8 @@ importers:
         specifier: 6.0.0
         version: 6.0.0
       next:
-        specifier: 16.4.1
-        version: 16.4.1(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        specifier: 16.4.3
+        version: 16.4.3(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       next-themes:
         specifier: 0.4.6
         version: 0.4.6(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
@@ -180,8 +180,8 @@ importers:
         specifier: 8.19.0
         version: 8.19.0
       zod:
-        specifier: 4.3.6
-        version: 4.3.6
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3.3.3
@@ -1083,44 +1083,44 @@ packages:
   '@neondatabase/serverless@0.10.4':
     resolution: {integrity: sha512-2nZuh3VUO9voBauuh+IGYRhGU/MskWHt1IuZvHcJw6GLjDgtqj/KViKo7SIrLdGLdot7vFbiRRw+BgEy3wT9HA==}
 
-  '@next/env@16.4.1':
-    resolution: {integrity: sha512-5sUUrrSvs/2/2LnLoesybMGx12EtPB46fdZ6RhAw0XDGSPxU2LFyQBB7yuEiOFFJPKmBY6+q2jTr1/AMbnp0/g==}
+  '@next/env@16.4.3':
+    resolution: {integrity: sha512-a7tz1QCcWWkwC/rPJcPMJk/UNRu9CFhDd3OHYE5hddbJrs8BqRTalxI6GlKCWEGzRLHN+S/B7a4PAHCtm25aBQ==}
 
   '@next/eslint-plugin-next@16.0.7':
     resolution: {integrity: sha512-hFrTNZcMEG+k7qxVxZJq3F32Kms130FAhG8lvw2zkKBgAcNOJIxlljNiCjGygvBshvaGBdf88q2CqWtnqezDHA==}
 
-  '@next/swc-darwin-arm64@16.4.1':
-    resolution: {integrity: sha512-U+hQ5Gj3fpzf4fveTIF3dpUFYhaSW8vHhdAnbiIomzXzg7boreYFgBqprepXFtW4sw+aTttiNmg0gew/iFNhbg==}
+  '@next/swc-darwin-arm64@16.4.3':
+    resolution: {integrity: sha512-4yq5EXBt+VDtAZwTyfijaFp5D2C5oz3Ikw5a2kiX2K9nw72vrZX2q5UuAlkPtUMO1tQz6JTKpaKWjS7OOefTDQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@next/swc-darwin-x64@16.4.1':
-    resolution: {integrity: sha512-/hqC3V1XLUjhMASf/WridKdO9FXoEgN3HBWmtKbj00MPgnltutfraWJ3bYTpCRIgEIpbjJyOVLpYgAhh/BkdcQ==}
+  '@next/swc-darwin-x64@16.4.3':
+    resolution: {integrity: sha512-1Rvkn/LUhnEF8WxnRkOrqGhbwXui1bkWFxONKIbN+r7C+9KHDSZ+iUoj4CzymVMWUyZIyx9szcb9+kbKhD500A==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@next/swc-linux-arm64-gnu@16.4.1':
-    resolution: {integrity: sha512-GHzncHbcaS9g95kcvTNtKQW3aCLoR+xc3Jm7qrkpk1R+D2BjMHIPyvQGRPKCdMX95BsH/421jBUK06q9tEwzjw==}
+  '@next/swc-linux-arm64-gnu@16.4.3':
+    resolution: {integrity: sha512-dCKpXErGg3abUM6t5JTJV/ottVBTStJB5lRJTbgdUdQaQ+jNHiK56Hsc0YAEg/rinSh42hYG3HWiYmEMdilnxg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@next/swc-linux-arm64-musl@16.4.1':
-    resolution: {integrity: sha512-1SuJyDxW/PR9dHJat/ZRgcYLhuSZ+1psP4DlKb2tKIuXbjygqpLrJWRSq+onZQBv8LcmU67EIrmb6c3XTaJLjw==}
+  '@next/swc-linux-arm64-musl@16.4.3':
+    resolution: {integrity: sha512-WwYbhWkhYBvBtib1K4W0kL8MW2snBD2A5b3SN4vPpqalZbZs5+bQ1yzAdepVoOqrFfEW3dmREy4Zs1MrWcrFbw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@next/swc-linux-x64-gnu@16.4.1':
-    resolution: {integrity: sha512-Istng1hMGp9TGO4lUqeKLd70MPN/OOkucVTP2Nmj+gLkwBgmPqUw8CJYBCC7nbl/B/23bBCcjCI5Hsh6hazC1A==}
+  '@next/swc-linux-x64-gnu@16.4.3':
+    resolution: {integrity: sha512-QymWvfUwDEC5/lpJOsxX5VAbyoR2D13+2Jsjz4be7gT4LPqEgdpkeLIR/HFfCLgKzoMhpJbp6I/JnogyNZHcaA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@next/swc-linux-x64-musl@16.4.1':
-    resolution: {integrity: sha512-aSC9wMNiZRRFVpPkPWBzRwLQxIGm/CiQcXyFF1XNcgodb+uMxdk7aSSGGpDXCbnvZdf4itjHxpOd5h7i7zaiYw==}
+  '@next/swc-linux-x64-musl@16.4.3':
+    resolution: {integrity: sha512-Vmjd9D7DpA4Vv3cUlr82QWgJD/BQZmns801vtC5VWHg6jCIA4a5vMKpQnfrM2pyCrp2eV0ENdUg4PlN3bAc2Yw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -1128,14 +1128,14 @@ packages:
   '@next/swc-wasm-nodejs@16.3.3':
     resolution: {integrity: sha512-WHbwupCVJxdsqdnSbIZQhOaxWwOMKVhALvLxVKqE1D+m93DPFWyXnwmknA0AWY9kc7d4HVuEBex8yeSEw3baBw==}
 
-  '@next/swc-win32-arm64-msvc@16.4.1':
-    resolution: {integrity: sha512-t/myvwFDlypMUjRvbBf8qLPyuaB0iXYYdBtwMt6DM6f+60wtGr4bSYholdPqNeV5VUXZhrpMwfza829kmhS3iA==}
+  '@next/swc-win32-arm64-msvc@16.4.3':
+    resolution: {integrity: sha512-lG1pPdPLk7gTyGb00n5JIMLdBJgjb+UEhSdZvFbhUMg0DyC6z4B7RnpSKF9VCd4imkLObVbXOFA0kFCpw7yFow==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@next/swc-win32-x64-msvc@16.4.1':
-    resolution: {integrity: sha512-6ICqPo9awCkrtYNPhwkx1uU7rlFWrZRrIboDHS2LU+jv088UBYQtmJ25h6pCp27/+FZjF6BQ4Te4ErugyMeuBg==}
+  '@next/swc-win32-x64-msvc@16.4.3':
+    resolution: {integrity: sha512-NmQC9RkJdnPXRaMxtkCzobB3teVjqF33oSOnwDfi+XYGWWYpt+xlGK3mtktSKLbdjwaWbJu2OkkMiRFGUUncKg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -4347,8 +4347,8 @@ packages:
       react: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
       react-dom: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
 
-  next@16.4.1:
-    resolution: {integrity: sha512-uc657V62E34fOI6W5NtG9IzwsPcms0Z60grz2MJGtglgD+pTFnNt4Yw2PzaU622tfX4vhrDgLZzicE2YlhI20Q==}
+  next@16.4.3:
+    resolution: {integrity: sha512-OqxKTGi9u80FydydsMNYNjnuje9Au+kvHlt2GZ//ftdpDHm1dxKqAaENoOOTX5wKzn+9vaKUNIfZeyZUuLhCnA==}
     engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
@@ -5306,29 +5306,29 @@ packages:
   zod@3.24.4:
     resolution: {integrity: sha512-OdqJE9UDRPwWsrHjLN2F8bPxvwJBK22EHLWtanu0LSYr5YqzsaaW3RMgmjwr8Rypg5k+meEJdSPXJZXE/yqOMg==}
 
-  zod@4.3.6:
-    resolution: {integrity: sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
 snapshots:
 
-  '@ai-sdk/gateway@4.0.69(zod@4.3.6)':
+  '@ai-sdk/gateway@4.0.69(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.9
-      '@ai-sdk/provider-utils': 5.0.34(zod@4.3.6)
+      '@ai-sdk/provider-utils': 5.0.34(zod@4.6.6)
       '@vercel/oidc': 3.2.0
-      zod: 4.3.6
+      zod: 4.6.6
 
-  '@ai-sdk/provider-utils@5.0.34(zod@4.3.6)':
+  '@ai-sdk/provider-utils@5.0.34(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.9
       '@standard-schema/spec': 1.1.0
       '@workflow/serde': 4.1.0
       eventsource-parser: 3.1.1
       undici: 7.29.0
-      zod: 4.3.6
+      zod: 4.6.6
 
   '@ai-sdk/provider@4.0.9':
     dependencies:
@@ -5958,15 +5958,15 @@ snapshots:
       eventsource-parser: 3.1.1
       jose: 6.1.3
       pkce-challenge: 5.0.1
-      zod: 4.3.6
+      zod: 4.6.6
     optional: true
 
   '@modelcontextprotocol/core@2.0.0':
     dependencies:
-      zod: 4.3.6
+      zod: 4.6.6
     optional: true
 
-  '@modelcontextprotocol/sdk@1.25.3(hono@4.11.5)(zod@4.3.6)':
+  '@modelcontextprotocol/sdk@1.25.3(hono@4.11.5)(zod@4.6.6)':
     dependencies:
       '@hono/node-server': 1.19.9(hono@4.11.5)
       ajv: 8.17.1
@@ -5982,8 +5982,8 @@ snapshots:
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
       raw-body: 3.0.2
-      zod: 4.3.6
-      zod-to-json-schema: 3.25.1(zod@4.3.6)
+      zod: 4.6.6
+      zod-to-json-schema: 3.25.1(zod@4.6.6)
     transitivePeerDependencies:
       - hono
       - supports-color
@@ -6010,36 +6010,36 @@ snapshots:
     dependencies:
       '@types/pg': 8.11.6
 
-  '@next/env@16.4.1': {}
+  '@next/env@16.4.3': {}
 
   '@next/eslint-plugin-next@16.0.7':
     dependencies:
       fast-glob: 3.3.1
 
-  '@next/swc-darwin-arm64@16.4.1':
+  '@next/swc-darwin-arm64@16.4.3':
     optional: true
 
-  '@next/swc-darwin-x64@16.4.1':
+  '@next/swc-darwin-x64@16.4.3':
     optional: true
 
-  '@next/swc-linux-arm64-gnu@16.4.1':
+  '@next/swc-linux-arm64-gnu@16.4.3':
     optional: true
 
-  '@next/swc-linux-arm64-musl@16.4.1':
+  '@next/swc-linux-arm64-musl@16.4.3':
     optional: true
 
-  '@next/swc-linux-x64-gnu@16.4.1':
+  '@next/swc-linux-x64-gnu@16.4.3':
     optional: true
 
-  '@next/swc-linux-x64-musl@16.4.1':
+  '@next/swc-linux-x64-musl@16.4.3':
     optional: true
 
   '@next/swc-wasm-nodejs@16.3.3': {}
 
-  '@next/swc-win32-arm64-msvc@16.4.1':
+  '@next/swc-win32-arm64-msvc@16.4.3':
     optional: true
 
-  '@next/swc-win32-x64-msvc@16.4.1':
+  '@next/swc-win32-x64-msvc@16.4.3':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -6118,14 +6118,14 @@ snapshots:
     dependencies:
       '@octokit/openapi-types': 27.0.0
 
-  '@openai/agents-core@0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6)':
+  '@openai/agents-core@0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       debug: 4.4.3
-      openai: 7.15.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6)
+      openai: 7.15.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6)
     optionalDependencies:
       '@modelcontextprotocol/client': 2.0.0
-      zod: 4.3.6
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@aws-sdk/credential-provider-node'
       - '@smithy/hash-node'
@@ -6134,14 +6134,14 @@ snapshots:
       - undici
       - ws
 
-  '@openai/agents-core@0.18.0(undici@7.29.0)(ws@8.21.3)(zod@4.3.6)':
+  '@openai/agents-core@0.18.0(undici@7.29.0)(ws@8.21.3)(zod@4.6.6)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       debug: 4.4.3
-      openai: 7.15.0(undici@7.29.0)(ws@8.21.3)(zod@4.3.6)
+      openai: 7.15.0(undici@7.29.0)(ws@8.21.3)(zod@4.6.6)
     optionalDependencies:
       '@modelcontextprotocol/client': 2.0.0
-      zod: 4.3.6
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@aws-sdk/credential-provider-node'
       - '@smithy/hash-node'
@@ -6150,12 +6150,12 @@ snapshots:
       - undici
       - ws
 
-  '@openai/agents-openai@0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6)':
+  '@openai/agents-openai@0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6)':
     dependencies:
-      '@openai/agents-core': 0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6)
+      '@openai/agents-core': 0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6)
       debug: 4.4.3
-      openai: 7.15.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6)
-      zod: 4.3.6
+      openai: 7.15.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6)
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@aws-sdk/credential-provider-node'
       - '@smithy/hash-node'
@@ -6164,13 +6164,13 @@ snapshots:
       - undici
       - ws
 
-  '@openai/agents-realtime@0.18.0(undici@7.29.0)(zod@4.3.6)':
+  '@openai/agents-realtime@0.18.0(undici@7.29.0)(zod@4.6.6)':
     dependencies:
-      '@openai/agents-core': 0.18.0(undici@7.29.0)(ws@8.21.3)(zod@4.3.6)
+      '@openai/agents-core': 0.18.0(undici@7.29.0)(ws@8.21.3)(zod@4.6.6)
       '@types/ws': 8.18.1
       debug: 4.4.3
       ws: 8.21.3
-      zod: 4.3.6
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@aws-sdk/credential-provider-node'
       - '@smithy/hash-node'
@@ -6180,14 +6180,14 @@ snapshots:
       - undici
       - utf-8-validate
 
-  '@openai/agents@0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6)':
+  '@openai/agents@0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6)':
     dependencies:
-      '@openai/agents-core': 0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6)
-      '@openai/agents-openai': 0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6)
-      '@openai/agents-realtime': 0.18.0(undici@7.29.0)(zod@4.3.6)
+      '@openai/agents-core': 0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6)
+      '@openai/agents-openai': 0.18.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6)
+      '@openai/agents-realtime': 0.18.0(undici@7.29.0)(zod@4.6.6)
       debug: 4.4.3
-      openai: 7.15.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6)
-      zod: 4.3.6
+      openai: 7.15.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6)
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@aws-sdk/credential-provider-node'
       - '@smithy/hash-node'
@@ -7411,9 +7411,9 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@vercel/analytics@2.0.1(next@16.4.1(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react@19.2.1)':
+  '@vercel/analytics@2.0.1(next@16.4.3(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react@19.2.1)':
     optionalDependencies:
-      next: 16.4.1(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+      next: 16.4.3(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       react: 19.2.1
 
   '@vercel/oidc@2.0.2':
@@ -7438,16 +7438,16 @@ snapshots:
 
   '@vercel/sdk@1.18.7(hono@4.11.5)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.25.3(hono@4.11.5)(zod@4.3.6)
-      zod: 4.3.6
+      '@modelcontextprotocol/sdk': 1.25.3(hono@4.11.5)(zod@4.6.6)
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@cfworker/json-schema'
       - hono
       - supports-color
 
-  '@vercel/speed-insights@2.0.0(next@16.4.1(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react@19.2.1)':
+  '@vercel/speed-insights@2.0.0(next@16.4.3(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(react@19.2.1)':
     optionalDependencies:
-      next: 16.4.1(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+      next: 16.4.3(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       react: 19.2.1
 
   '@vue/reactivity@3.5.27':
@@ -7475,12 +7475,12 @@ snapshots:
 
   acorn@8.15.0: {}
 
-  ai@7.0.85(zod@4.3.6):
+  ai@7.0.85(zod@4.6.6):
     dependencies:
-      '@ai-sdk/gateway': 4.0.69(zod@4.3.6)
+      '@ai-sdk/gateway': 4.0.69(zod@4.6.6)
       '@ai-sdk/provider': 4.0.9
-      '@ai-sdk/provider-utils': 5.0.34(zod@4.3.6)
-      zod: 4.3.6
+      '@ai-sdk/provider-utils': 5.0.34(zod@4.6.6)
+      zod: 4.6.6
 
   ajv-formats@3.0.1(ajv@8.17.1):
     optionalDependencies:
@@ -8366,8 +8366,8 @@ snapshots:
       '@babel/parser': 7.28.6
       eslint: 9.39.2(jiti@2.6.1)
       hermes-parser: 0.25.1
-      zod: 4.3.6
-      zod-validation-error: 4.0.2(zod@4.3.6)
+      zod: 4.6.6
+      zod-validation-error: 4.0.2(zod@4.6.6)
     transitivePeerDependencies:
       - supports-color
 
@@ -9681,9 +9681,9 @@ snapshots:
       react: 19.2.1
       react-dom: 19.2.1(react@19.2.1)
 
-  next@16.4.1(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
+  next@16.4.3(@babel/core@7.28.6)(@opentelemetry/api@1.9.0)(@types/node@20.19.30)(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
     dependencies:
-      '@next/env': 16.4.1
+      '@next/env': 16.4.3
       '@swc/helpers': 0.5.23
       baseline-browser-mapping: 2.11.34
       caniuse-lite: 1.0.30001820
@@ -9692,14 +9692,14 @@ snapshots:
       react-dom: 19.2.1(react@19.2.1)
       styled-jsx: 5.1.6(@babel/core@7.28.6)(react@19.2.1)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 16.4.1
-      '@next/swc-darwin-x64': 16.4.1
-      '@next/swc-linux-arm64-gnu': 16.4.1
-      '@next/swc-linux-arm64-musl': 16.4.1
-      '@next/swc-linux-x64-gnu': 16.4.1
-      '@next/swc-linux-x64-musl': 16.4.1
-      '@next/swc-win32-arm64-msvc': 16.4.1
-      '@next/swc-win32-x64-msvc': 16.4.1
+      '@next/swc-darwin-arm64': 16.4.3
+      '@next/swc-darwin-x64': 16.4.3
+      '@next/swc-linux-arm64-gnu': 16.4.3
+      '@next/swc-linux-arm64-musl': 16.4.3
+      '@next/swc-linux-x64-gnu': 16.4.3
+      '@next/swc-linux-x64-musl': 16.4.3
+      '@next/swc-win32-arm64-msvc': 16.4.3
+      '@next/swc-win32-x64-msvc': 16.4.3
       '@opentelemetry/api': 1.9.0
       sharp: 0.35.5(@types/node@20.19.30)
     transitivePeerDependencies:
@@ -9769,17 +9769,17 @@ snapshots:
       regex: 6.1.0
       regex-recursion: 6.0.2
 
-  openai@7.15.0(undici@7.29.0)(ws@8.19.0)(zod@4.3.6):
+  openai@7.15.0(undici@7.29.0)(ws@8.19.0)(zod@4.6.6):
     optionalDependencies:
       undici: 7.29.0
       ws: 8.19.0
-      zod: 4.3.6
+      zod: 4.6.6
 
-  openai@7.15.0(undici@7.29.0)(ws@8.21.3)(zod@4.3.6):
+  openai@7.15.0(undici@7.29.0)(ws@8.21.3)(zod@4.6.6):
     optionalDependencies:
       undici: 7.29.0
       ws: 8.21.3
-      zod: 4.3.6
+      zod: 4.6.6
 
   optionator@0.9.4:
     dependencies:
@@ -10835,16 +10835,16 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod-to-json-schema@3.25.1(zod@4.3.6):
+  zod-to-json-schema@3.25.1(zod@4.6.6):
     dependencies:
-      zod: 4.3.6
+      zod: 4.6.6
 
-  zod-validation-error@4.0.2(zod@4.3.6):
+  zod-validation-error@4.0.2(zod@4.6.6):
     dependencies:
-      zod: 4.3.6
+      zod: 4.6.6
 
   zod@3.24.4: {}
 
-  zod@4.3.6: {}
+  zod@4.6.6: {}
 
   zwitch@2.0.4: {}
